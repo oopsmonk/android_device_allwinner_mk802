@@ -20,4 +20,4 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-add_lunch_combo mini_armv7a_neon-userdebug
+add_lunch_combo full_mk802-userdebug

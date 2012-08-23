@@ -1,0 +1,3 @@
+on early-init
+# create mountpoints
+    mkdir /mnt/usb0 0775 system system

@@ -14,11 +14,12 @@
 
 $(call inherit-product, build/target/product/mini.mk)
 
-PRODUCT_NAME := mini_armv7a_neon
-PRODUCT_DEVICE := armv7-a-neon
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := Mini for armv7-a-neon
+PRODUCT_NAME := full_mk802
+PRODUCT_DEVICE := mk802
+PRODUCT_BRAND := Allwinner
+PRODUCT_MODEL := MK802
+PRODUCT_MANUFACTURER := Rikomagic
 
 # default is nosdcard, S/W button enabled in resource
-DEVICE_PACKAGE_OVERLAYS := device/generic/armv7-a-neon/overlay
-PRODUCT_CHARACTERISTICS := nosdcard
+DEVICE_PACKAGE_OVERLAYS := device/allwinner/mk802/overlay
+#PRODUCT_CHARACTERISTICS := nosdcard

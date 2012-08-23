@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mini_armv7a_neon.mk
+    $(LOCAL_DIR)/mk802.mk
